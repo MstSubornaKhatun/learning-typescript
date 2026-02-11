@@ -10,12 +10,9 @@ Type '"suborna"' is not assignable to type '"pending" | "success" | "error"'.
 */ 
 apiRequestStatus = "success"
 
-
 let airlineSeat: 'aisle' | 'window' | 'middle' = 'aisle'
 
 airlineSeat = 'middle'
-
-
 
 // any
 const orders = ['12', '20', '28', '42']
@@ -45,4 +42,4 @@ let currentOrder: string;
 Variable 'currentOrder' is used before being assigned.
 */ 
 
-// avoide: any
+// avoid: any
