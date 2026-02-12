@@ -9,8 +9,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module", // ata korar por axios import a error dibe na
   "description": "",
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "axios": "^1.13.5"
   }
 }
